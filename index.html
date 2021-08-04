@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    <<title>Colonia Navidad</title>
+</head>
+<body>
+    <div class="card">
+        <div class="card-body">
+            <div class="card text-center">
+                <div class="card-header">
+                  COLONIA NAVIDAD
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Polígono proyección autopista</h5>
+                  <p class="card-text">Imégenes satelitales montando un KML como polígono.</p>
+                  <a href="#" class="mr-1 btn btn-sm btn-sm btn btn-success" data-toggle="modal" data-target="#myModal"><i class="fas fa-eye"></i> Ver </a>
+                  <div class="modal fade bd-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe src="/v0.1/map_view/map/index.html?activo=CNPrueba&amp;geoPoint=18.979081, -99.101286" style="width:100%; height:600px;" frameborder="0"></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer text-muted">
+                  2 days ago
+                </div>
+                
+              </div>
+        </div>
+      </div>
+      <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    </body>
+</html>
